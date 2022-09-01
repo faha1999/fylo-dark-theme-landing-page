@@ -3,6 +3,7 @@ import { Features } from './components/Features';
 import { Header } from './components/Header';
 import { Intro } from './components/Intro';
 import { Productive } from './components/Productive';
+import { Testimonials } from './components/Testimonials';
 
 export const App = () => {
   return (
@@ -11,6 +12,7 @@ export const App = () => {
       <Intro />
       <Features />
       <Productive />
+      <Testimonials />
     </>
   );
 };
