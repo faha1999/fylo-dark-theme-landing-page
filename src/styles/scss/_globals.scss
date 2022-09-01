@@ -93,6 +93,8 @@ h6 {
   transition: background 250ms ease;
   position: relative;
   z-index: 1;
+  border: none;
+  outline: none;
 }
 
 .btn::after {
