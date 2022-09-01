@@ -1,4 +1,5 @@
 import React from 'react';
+import { Features } from './components/Features';
 import { Header } from './components/Header';
 import { Intro } from './components/Intro';
 
@@ -7,6 +8,7 @@ export const App = () => {
     <>
       <Header />
       <Intro />
+      <Features />
     </>
   );
 };
