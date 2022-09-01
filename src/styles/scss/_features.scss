@@ -8,9 +8,6 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   .wrap {
-    display: grid;
-    grid-gap: 20px;
-
     h3 {
       font-size: 1.5em;
     }
