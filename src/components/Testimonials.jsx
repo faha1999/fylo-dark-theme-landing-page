@@ -5,22 +5,22 @@ import quote from '../assets/images/bg-quotes.png';
 export const Testimonials = () => {
   return (
     <>
-      <section class="testimonials">
-        <div class="container">
-          <div class="quote">
+      <section className="testimonials">
+        <div className="container">
+          <div className="quote">
             <img src={quote} alt="quote" />
           </div>
 
-          <ul class="card">
+          <ul className="card">
             {testimonialsData.map((data) => (
-              <li class="testimonial grid" key={data.name}>
+              <li className="testimonial grid" key={data.name}>
                 <p>{data.details}</p>
 
-                <div class="info">
-                  <div class="img">
+                <div className="info">
+                  <div className="img">
                     <img src={data.img} alt="{data.name}" />
                   </div>
-                  <div class="basicInfo">
+                  <div className="basicInfo">
                     <h5>{data.name}</h5>
                     <p>{data.title}</p>
                   </div>
