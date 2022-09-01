@@ -1,0 +1,42 @@
+.header {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      height: 33px;
+    }
+
+    .navList {
+      display: flex;
+
+      .navItem {
+        margin-left: 20px;
+
+        .navLink {
+          transition: 250ms;
+
+          &:hover {
+            font-weight: 900;
+            border-bottom: 1px solid currentColor;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header {
+    .navList {
+      .navItem {
+        margin-left: 40px;
+
+        .navLink {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
